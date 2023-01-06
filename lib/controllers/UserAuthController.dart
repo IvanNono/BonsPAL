@@ -7,6 +7,6 @@ class UserAuth extends ChangeNotifier{
     isSignedIn = isSignedIn;
     notifyListeners();
 
-    int t;
+    int t = 0;
   }
 }
